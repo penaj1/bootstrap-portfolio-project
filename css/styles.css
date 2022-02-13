@@ -4,11 +4,10 @@ body {
     color:#ffffff;
 }
   
-h1, h2, h3 {
+h1, h2, h3, h4, h5, .signup {
     font-family: 'Oswald', sans-serif;
     color: #17a2b8;
 }
-
 
 h2 {
     color: ##FFCC66; 
@@ -16,6 +15,12 @@ h2 {
 
 header h2 {
     color: #FFCC66; 
+}
+
+.signup {
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    font-size: 1.25em;
 }
 
 .site-footer {
