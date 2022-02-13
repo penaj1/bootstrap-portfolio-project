@@ -1,17 +1,41 @@
-body {
+body, html {
     font-family: "Open Sans", sans-serif; 
     background: #000000;
     color:#ffffff;
-}
+    /* The image used */
+    background-image: url(/images/antonio-gabola-unsplash.jpg);
+
+    /* Full height */
+    height: auto;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .gradient-custom {
+    /* fallback for old browsers */
+    background: #a18cd1;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(45deg,rgba(0, 0, 19, 1), rgba(73, 62, 1, 0.6) 100%
+    );
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(
+      45deg,
+      rgba(0, 0, 19, 1),
+      rgba(73, 62, 1, 0.6) 100%
+    );
+  }
   
 h1, h2, h3, h4, h5, .signup {
     font-family: 'Oswald', sans-serif;
     color: #17a2b8;
 }
 
-h2 {
-    color: ##FFCC66; 
-}
 
 header h2 {
     color: #FFCC66; 
@@ -31,8 +55,9 @@ header h2 {
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, #000000, #092127, #000000);
+    background-image: linear-gradient(to right, #000000, #08161a, #000000);
     color: white; 
+
 }
 
 .row-content {
@@ -46,7 +71,7 @@ header h2 {
     font-family: 'Oswald', sans-serif;
 }
 
-.col-md-12 img {width:200px;}
+.col-md-12 img {width:150px;}
 
 a, a:hover {
     color: inherit;
